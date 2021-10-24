@@ -7,3 +7,5 @@
 # x = 3
 # y = 7
 # unit_price = 5
+
+print("***" * 6)
