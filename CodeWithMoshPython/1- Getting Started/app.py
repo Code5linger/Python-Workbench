@@ -3,4 +3,6 @@
 # print('Hellow Code' * 2)
 
 # print ("Hello, Code!")
-2 + 3
+x = 3
+y = 7
+unit_price = 5
