@@ -6,8 +6,16 @@
 
 # is_published = False
 # print(is_published)
+"""
+#awdaw
+
 course = "Python Programming"
 print(len(course))
 print(course[0])
 print(course[-2])
 print(course[0:6])
+print(course.upper())
+"""
+
+course = "Python Programming"
+print(len(course))
