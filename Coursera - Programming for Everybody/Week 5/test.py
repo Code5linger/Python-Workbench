@@ -86,10 +86,16 @@ elif x >= 2 :
 else :
     print('Something else')
 """
+"""
 raw_hours = input("Enter Hours:")
-hours = float(raw_hours)
 raw_rate = input("Enter Rate:")
-rate = float(raw_rate)
+
+try:
+    hours = float(raw_hours)
+    rate = float(raw_rate)
+except:
+    print("Error! Enter Valid Number")
+    quit()
 
 if hours <= 40:
     print(hours * rate)
@@ -97,3 +103,24 @@ elif hours > 40:
     print((40 * rate) + ((hours - 40) * (rate * 1.5)))
 else:
     print("Error")
+"""
+raw_input = input("Enter Score Grade: ")
+
+try:
+    input = float(raw_input)
+except:
+    print("Error! Enter Valid Score")
+    quit()
+
+if input < 0.6:
+    print("F")
+elif 0.60 <= input <= 0.69:
+    print("D")
+elif 0.70 <= input <= 0.79:
+    print("C")
+elif 0.80 <= input <= 0.89:
+    print("B")
+elif 0.90 <= input <= 1.0:
+    print("A")
+else:
+    print("Please Enter A Score between 0 to 1")
