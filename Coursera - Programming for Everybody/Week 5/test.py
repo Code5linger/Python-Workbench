@@ -48,7 +48,7 @@ except:
     aint = -204
 print("Done", aint)
 """
-
+"""
 rawstr = input("Enter a number: ")
 try:
     ival = int(rawstr)
@@ -59,4 +59,21 @@ if ival > 0 :
     print('Thanks')
 else:
     print("Not a Number", ival)
-
+"""
+"""
+x =6
+if x == 6 :
+    print('Is 6')
+    print('Is Still 6')
+    print('Third 6')
+"""
+"""
+x = 0
+if x < 2 :
+    print('Small')
+elif x < 10 :
+    print('Medium')
+else :
+    print('LARGE')
+print('All done')
+"""
