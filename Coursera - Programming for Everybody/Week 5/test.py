@@ -86,3 +86,14 @@ elif x >= 2 :
 else :
     print('Something else')
 """
+raw_hours = input("Enter Hours:")
+hours = float(raw_hours)
+raw_rate = input("Enter Rate:")
+rate = float(raw_rate)
+
+if hours <= 40:
+	print(hours * rate)
+elif hours >40:
+	print((40 * rate) + ((hours - 40) * (rate * 1.5)))
+else:
+    print("Error")
