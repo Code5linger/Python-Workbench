@@ -21,3 +21,18 @@ elif x < 10 :
 else :
     print("Something Else")
 """
+
+x = "My Name is Jeff"
+try:
+    i = int(x)
+except:
+    i = -404
+print("Hi", i)
+
+astr = '123x'
+try:
+    aint = int(astr)
+except:
+    aint = -304
+
+print("Yo!", aint)
