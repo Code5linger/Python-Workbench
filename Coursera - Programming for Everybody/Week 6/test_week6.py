@@ -149,4 +149,4 @@ def computepay(hours, rate):
 
 
 pay = (computepay(hours, rate))
-print(pay)
+print("Pay", pay)
