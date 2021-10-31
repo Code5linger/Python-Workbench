@@ -69,4 +69,18 @@ print(course.replace("P", "j"))
 print("Pro" in course)
 print("swift" not in course)
 """
-# 7
+# 8
+"""
+import math
+
+print(round(2.9))
+print(abs(-2.9))
+
+print(math.ceil(2.2))
+"""
+# 9
+"""
+x = input("x: ")
+y = int(x) + 1
+print(f"x: {x}, y: {y}")
+"""
