@@ -21,8 +21,14 @@ for i in [5, 4, 3, 2, 1, 0]:
     print(i)
 print("Blastoff🚀")
 """
-
+"""
 friends = ['Joseph', 'Glenn', 'Sally']
 for friend in friends :
     print('Happy New Year', friend, '🎆🎇')
 print('Done!')
+"""
+
+print('Before')
+for thing in [9, 12, 41, 3, 17, 9, 12, 41, 3, 17,] :
+    print(thing)
+print('After')
