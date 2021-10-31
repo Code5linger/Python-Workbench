@@ -68,11 +68,30 @@ for value in [9, 41, 12, 3, 74, 15]:
     print(found, value)
 print('After', found)
 """
-
-smallest_so_far = 100
+""" 
+smallest_so_far = None
 print('Before', smallest_so_far)
 for value in [9, 41, 12, 3, 74, 15]:
-    if value < smallest_so_far :
+    if smallest_so_far is None:
+        smallest_so_far = value
+    elif value < smallest_so_far:
         smallest_so_far = value
     print(smallest_so_far)
 print('After', smallest_so_far)
+"""
+"""
+tot = 0
+for i in [5, 4, 3, 2, 1] :
+    tot = tot + 1
+print(tot)
+"""
+friends = ['Joseph', 'Glenn', 'Sally']
+for friend in friends :
+     print('Happy New Year:',  friend)
+print('Done!')
+
+smallest_so_far = -1
+for the_num in [9, 41, 12, 3, 74, 15] :
+   if the_num < smallest_so_far :
+      smallest_so_far = the_num
+print(smallest_so_far)
