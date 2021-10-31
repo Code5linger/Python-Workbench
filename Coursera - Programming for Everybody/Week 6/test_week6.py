@@ -131,8 +131,15 @@ rate_raw = input('Enter Rate: ')
 hours = float(hours_raw)
 rate = float(rate_raw)
 
+try:
+    hours = float(hours_raw)
+    rate = float(rate_raw)
+except:
+    print("Error! Enter Valid Number")
+    quit()
 
-def computerpay(hours, rate):
+
+def computepay(hours, rate):
     if hours <= 40:
         return (hours * rate)
     elif hours > 40:
@@ -141,5 +148,5 @@ def computerpay(hours, rate):
         return ('Error')
 
 
-pay = (computerpay(hours, rate))
+pay = (computepay(hours, rate))
 print(pay)
