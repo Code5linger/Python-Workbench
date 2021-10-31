@@ -7,7 +7,6 @@ while n > 0:
 print(n)
 print('Blastoff!')
 """
-
 '''
 while True:
     line = input('>')
@@ -85,6 +84,7 @@ for i in [5, 4, 3, 2, 1] :
     tot = tot + 1
 print(tot)
 """
+"""
 friends = ['Joseph', 'Glenn', 'Sally']
 for friend in friends :
      print('Happy New Year:',  friend)
@@ -95,3 +95,100 @@ for the_num in [9, 41, 12, 3, 74, 15] :
    if the_num < smallest_so_far :
       smallest_so_far = the_num
 print(smallest_so_far)
+"""
+"""
+num = 0
+tot = 0.0
+while True:
+    sval = input('Enter a number: ')
+    if sval == 'done':
+        break
+    try:
+        fval = float(sval)
+    except:
+        print('Invalid Input')
+        continue
+    fval = float(sval)
+    print(fval)
+    num = num + 1
+    tot = tot + fval
+
+print('ALL DONE')
+print(tot, num, tot/num)
+"""
+"""
+smallest_yet = None
+largest_yet = 0
+
+while True:
+    raw_input = input('Enter a number: ')
+    if raw_input == 'done':
+        break
+    try:
+        float_input = int(raw_input)
+    except:
+        print('Invalid Input')
+        continue
+    print(float_input)
+    if smallest_yet is None:
+        smallest_yet = float_input
+    elif float_input < smallest_yet:
+        smallest_yet = float_input
+    print("Minimum is ", smallest_yet)
+    
+    if float_input > largest_yet:
+        largest_yet = float_input
+    print("Maximum is ", largest_yet)
+
+#print(largest_yet, smallest_yet)
+"""
+"""
+hours_raw = input('Enter Hours: ')
+rate_raw = input('Enter Rate: ')
+
+try:
+    hours = float(hours_raw)
+    rate = float(rate_raw)
+except IndexError:
+    print("Error! Enter Valid Number")
+    quit()
+
+
+def computepay(hours, rate):
+    if hours <= 40:
+        return (hours * rate)
+    elif hours > 40:
+        return ((40 * rate) + ((hours - 40) * (rate * 1.5)))
+    else:
+        return ('Error')
+
+
+pay = (computepay(hours, rate))
+print("Pay", pay)
+
+
+"""
+
+smallest_yet = None
+largest_yet = 0
+while True:
+    raw_input = input('Enter a number: ')
+    if raw_input == 'done':
+        break
+    try:
+        float_input = float(raw_input)
+    except:
+        print('Invalid input')
+        continue
+    float_input = int(raw_input)
+
+    if float_input > largest_yet:
+        largest_yet = float_input
+
+    if smallest_yet is None:
+        smallest_yet = float_input
+    elif float_input < smallest_yet:
+        smallest_yet = float_input
+
+print("Maximum is", largest_yet)
+print("Minimum is", smallest_yet)
