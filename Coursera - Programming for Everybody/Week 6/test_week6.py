@@ -125,3 +125,21 @@ pay = computepay(hours, rate)
 print(pay)
 '''
 
+hours_raw = input('Enter Hours: ')
+rate_raw = input('Enter Rate: ')
+
+hours = float(hours_raw)
+rate = float(rate_raw)
+
+
+def computerpay(hours, rate):
+    if hours <= 40:
+        return (hours * rate)
+    elif hours > 40:
+        return ((40 * rate) + ((hours - 40) * (rate * 1.5)))
+    else:
+        return ('Error')
+
+
+pay = (computerpay(hours, rate))
+print(pay)
