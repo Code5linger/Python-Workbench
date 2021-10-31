@@ -134,7 +134,7 @@ rate = float(rate_raw)
 try:
     hours = float(hours_raw)
     rate = float(rate_raw)
-except:
+except IndexError:
     print("Error! Enter Valid Number")
     quit()
 
