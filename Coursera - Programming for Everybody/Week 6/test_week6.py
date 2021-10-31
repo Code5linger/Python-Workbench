@@ -28,7 +28,7 @@ print_lyrics()
 x = x + 2
 print(x)
 """
-
+'''
 name = input('What is your name? ')
 gender = input('What\'s your gender? ')
 lang = input('en es fr: ')
@@ -47,4 +47,13 @@ def address(gender):
     else:
         return ("Please ender M for male and F for Female")
 print(greet(lang),address(gender), name)
+'''
 
+a = input('A = ')
+b = input('B = ')
+def addnum(a, b):
+    added = int(a) + int(b)
+    return added
+
+x = addnum(a,b)
+print(x)
