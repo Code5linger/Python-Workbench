@@ -29,12 +29,13 @@ x = x + 2
 print(x)
 """
 
+name = input('What is your name? ')
 lang = input('en es fr: ')
 def greet(lang):
     if lang == 'es':
-        print('Hola!')
+        return ('Hola!')
     elif lang == 'fr':
-        print('Bonjour')
+        return ('Bonjour')
     else:
-        print('Hello')
-print(greet(lang))
+        return ('Hello')
+print(greet(lang),'Mr.', name)
