@@ -33,7 +33,7 @@ for thing in [9, 12, 41, 3, 17, 9, 12, 41, 3, 17,] :
     print(thing)
 print('After')
 """
-
+"""
 largest_so_far = -1
 smallest_so_far = 100
 print('Before', largest_so_far)
@@ -46,4 +46,33 @@ for the_num in [9, 12, 41, 3, 17, 9, 12, 74, 41, 3, 99, 17, 0] :
         smallest_so_far = the_num
     print(smallest_so_far, the_num)
     print('Smallest Yet ➡', smallest_so_far)
+"""
+"""
+code = 0
+sum = 0
+print('Before', code)
+for thing in [9, 41, 17, 25, 14]:
+    code = code + 1
+    sum = sum + thing
+    print(code, thing)
+print('After ➡', code)
+print('Sum ', sum, 'Avg', sum/code)
+"""
+"""
+found = False
+print('Before', found)
+for value in [9, 41, 12, 3, 74, 15]:
+    if value == 3 :
+        found = True
+        break
+    print(found, value)
+print('After', found)
+"""
 
+smallest_so_far = 100
+print('Before', smallest_so_far)
+for value in [9, 41, 12, 3, 74, 15]:
+    if value < smallest_so_far :
+        smallest_so_far = value
+    print(smallest_so_far)
+print('After', smallest_so_far)
