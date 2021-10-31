@@ -48,7 +48,7 @@ def address(gender):
         return ("Please ender M for male and F for Female")
 print(greet(lang),address(gender), name)
 '''
-
+'''
 a = input('A = ')
 b = input('B = ')
 def addnum(a, b):
@@ -57,3 +57,71 @@ def addnum(a, b):
 
 x = addnum(a,b)
 print(x)
+'''
+'''
+x = 'banana'
+y = max(x)
+print(y)
+
+def func(x) :
+    print(x)
+
+func(10)
+func(20)
+
+def stuff():
+    print('Hello')
+    return
+    print('World')
+
+stuff()
+
+def greet(lang):
+    if lang == 'es':
+        return 'Hola'
+    elif lang == 'fr':
+        return 'Bonjour'
+    else:
+        return 'Hello'
+
+print(greet('fr'),'Michael')
+
+def addtwo(a, b):
+    added = a + b
+    return a
+
+x = addtwo(2, 7)
+print(x)
+'''
+
+'''
+try:
+    hours = float(raw_hours)
+    rate = float(raw_rate)
+except:
+    print("Error! Enter Valid Number")
+    quit()
+'''
+'''
+raw_hours = input("Enter Hours:")
+raw_rate = input("Enter Rate:")
+
+hours = float(raw_hours)
+rate = float(raw_rate)
+'''
+'''
+def computepay(hours, rate):
+    if hours<=40:
+        return (hours * rate)
+    elif hours > 40:
+        return ((40 * rate) + ((hours - 40) * (rate * 1.5)))
+    else:
+        return ("Error")
+
+print(computepay(45, 10.5))
+'''
+'''
+pay = computepay(hours, rate)
+print(pay)
+'''
+
