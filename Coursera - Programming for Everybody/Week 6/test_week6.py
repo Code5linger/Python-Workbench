@@ -30,6 +30,7 @@ print(x)
 """
 
 name = input('What is your name? ')
+gender = input('What\'s your gender? ')
 lang = input('en es fr: ')
 def greet(lang):
     if lang == 'es':
@@ -38,4 +39,12 @@ def greet(lang):
         return ('Bonjour')
     else:
         return ('Hello')
-print(greet(lang),'Mr.', name)
+def address(gender):
+    if gender == 'm':
+        return ('Mr.')
+    elif gender == 'f':
+        return ('Miss.')
+    else:
+        return ("Please ender M for male and F for Female")
+print(greet(lang),address(gender), name)
+
