@@ -37,5 +37,36 @@ print(len(course))
 print(course[:8])
 """
 # 4
-course = "Python\"s Code"
+"""
+course = "Python\n Code"
 print(course)
+"""
+# 5
+"""
+first = "Code"
+last = "Slinger"
+full = first + " " + last
+print(full)
+"""
+# 6
+"""
+course = '   Python Programming'
+"""
+'''
+print(course.upper())
+print(course)
+course_capital = course.upper()
+print(course_capital)
+'''
+"""
+print(course.upper())
+print(course.title())
+print(course.lower())
+print(course.rstrip())
+print(course.lstrip())
+print(course.find("Pro"))
+print(course.replace("P", "j"))
+print("Pro" in course)
+print("swift" not in course)
+"""
+# 7
