@@ -31,4 +31,18 @@ if (high_income or good_credit) and not student:
 else:
     print("Go Fish🐟")
 """
-# 5
+# 6
+"""
+age = 220
+if 18 <= age < 65:
+    print('Ok')
+else:
+    print('Too Old')
+"""
+# 7
+if 10 == "10":
+    print('a')
+elif 'bag' > 'apple' and 'bag' > 'cat':
+    print('b')
+else:
+    print('c')
