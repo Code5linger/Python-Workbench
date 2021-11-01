@@ -40,9 +40,17 @@ else:
     print('Too Old')
 """
 # 7
+"""
 if 10 == "10":
     print('a')
 elif 'bag' > 'apple' and 'bag' > 'cat':
     print('b')
 else:
     print('c')
+"""
+# 8
+"""
+for number in range(1, 10, 1):
+    print('Attempt', number, number + 1, (number + 1) * '.')
+"""
+# 9
