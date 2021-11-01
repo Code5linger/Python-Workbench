@@ -54,3 +54,13 @@ for number in range(1, 10, 1):
     print('Attempt', number, number + 1, (number + 1) * '.')
 """
 # 9
+"""
+successful = False
+for number in range(3):
+    print('Attempt')
+    if successful:
+        print('Sucessful')
+        break
+else:
+    print('Attempted 3 times and failed!')
+"""
