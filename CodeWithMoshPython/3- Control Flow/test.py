@@ -20,4 +20,15 @@ else:
 # message = "Eligible" if age >= 18 else "Not Eligible"
 print(message)
 """
-#4
+# 4
+"""
+high_income = True
+good_credit = False
+student = False
+
+if (high_income or good_credit) and not student:
+    print("Ka-ching 🤑")
+else:
+    print("Go Fish🐟")
+"""
+
