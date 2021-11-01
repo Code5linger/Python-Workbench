@@ -116,3 +116,15 @@ while command != "quit":
         if command.lower() == 'quit':
             break
 """
+# 14
+# number = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+count = 0
+for number in range(1, 100):
+    if number % 2 == 0:
+        count += 1
+        print(number)
+print(f"We have {count} even numbers")
+
+# print(f"({x}, {y})")
+# print('We have 4 even numbers')
+
