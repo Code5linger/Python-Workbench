@@ -70,3 +70,26 @@ for x in range(5):
     for y in range(2):
         print(f"({x}, {y})")
 """
+# 11
+"""
+print(type(5))
+print(type(range(7)))
+"""
+'''
+for x in range(5):
+    print(x)
+'''
+"""
+for x in 'CodeSlingr':
+    print(x)
+"""
+"""
+for x in [1, 2, 3, 4]:
+    print(x)
+"""
+"""
+shopping_cart = ["book", "pen", "notebook"]
+for items in shopping_cart:
+    print(items, 'is in the cart🛒')
+"""
+# 12
