@@ -105,3 +105,14 @@ while command.lower() != 'quit':
     command = input(">")
     print("ECHO", command)
 """
+# 13
+"""
+command = ""
+while command != "quit":
+
+    while True:
+        command = input(">>>")
+        print("ECHO", command)
+        if command.lower() == 'quit':
+            break
+"""
