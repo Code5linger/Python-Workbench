@@ -93,3 +93,15 @@ for items in shopping_cart:
     print(items, 'is in the cart🛒')
 """
 # 12
+"""
+number = 100
+while number > 0:
+    print(number)
+    number //= 2
+"""
+"""
+command = ""
+while command.lower() != 'quit':
+    command = input(">")
+    print("ECHO", command)
+"""
