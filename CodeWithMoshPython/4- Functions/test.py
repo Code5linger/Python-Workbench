@@ -23,7 +23,15 @@ file = open('content.txt', 'w')
 file.write(message)
 """
 # 4
+"""
 def increment(number = 23,by = 7):
     return number + by
 
 print(increment(9, 1))
+"""
+# 6
+
+def multiply(*numbers):
+    print(numbers)
+
+multiply(2, 3, 4, 5)
