@@ -23,7 +23,7 @@ file = open('content.txt', 'w')
 file.write(message)
 """
 # 4
-def increment(number, by):
+def increment(number = 23,by = 7):
     return number + by
 
-print(increment(2, by=10))
+print(increment(9, 1))
