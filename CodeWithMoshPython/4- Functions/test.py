@@ -81,8 +81,7 @@ def increment(number, by=5):
 increment(2, 10)
 """
 # 6
-
-
+"""
 def multipy(*numbers):
     total = 1
     for numbers in numbers:
@@ -91,3 +90,13 @@ def multipy(*numbers):
 
 
 print(multipy(6, 3, 4, 5, 9, 11))
+"""
+# 7
+"""
+def save_user(**user):
+    print(user['id'])
+    print(user['name'])
+
+
+save_user(id=1, name='code', age=26)
+"""
