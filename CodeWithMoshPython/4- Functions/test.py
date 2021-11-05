@@ -80,3 +80,14 @@ def increment(number, by=5):
 
 increment(2, 10)
 """
+# 6
+
+
+def multipy(*numbers):
+    total = 1
+    for numbers in numbers:
+        total *= numbers
+    return total
+
+
+print(multipy(6, 3, 4, 5, 9, 11))
