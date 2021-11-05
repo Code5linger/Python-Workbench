@@ -30,8 +30,15 @@ def increment(number = 23,by = 7):
 print(increment(9, 1))
 """
 # 6
-
+"""
 def multiply(*numbers):
     print(numbers)
 
 multiply(2, 3, 4, 5)
+"""
+# 1 Re:
+def greet(name = 'Slinger🔫'):
+    print('Hi!' + name)
+    print('Welcome😊')
+
+greet('Code')
