@@ -37,8 +37,21 @@ def multiply(*numbers):
 multiply(2, 3, 4, 5)
 """
 # 1 Re:
+"""
 def greet(name = 'Slinger🔫'):
     print('Hi!' + name)
     print('Welcome😊')
 
 greet('Code')
+"""
+# 2 Re:
+"""
+def greetings(first_name="Nemo", last_name="XX"):
+    print('Welcome ' + 'Mr. ' + first_name)
+    print(f'We are glad you are here.{first_name} {last_name}')
+
+
+greetings('Code', 'Slinger')
+greetings('Lorem', 'Ipsum')
+greetings()
+"""
