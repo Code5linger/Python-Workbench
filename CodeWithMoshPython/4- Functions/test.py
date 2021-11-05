@@ -64,10 +64,19 @@ def greet(name):
 print(greet('Code'))
 """
 # 4
-
-
+"""
 def increment(number, by=5):
     return number + by
 
 
 print(increment(5))
+"""
+# 5
+"""
+def increment(number, by=5):
+    print(number + by)
+    return "-_-"
+
+
+increment(2, 10)
+"""
