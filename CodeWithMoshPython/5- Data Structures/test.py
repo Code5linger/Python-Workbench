@@ -20,3 +20,16 @@ print(letters[::2])
 numbers = list(range(20))
 print(numbers[::-1])
 """
+# 3
+numbers = [1, 2, 3, 1, 2, 3, 9]
+first, second, *other, last = numbers
+print(first, last)
+print(second)
+print(other)
+"""
+first = numbers[0]
+second = numbers[1]
+third = numbers[2]
+
+print(first, second, third)
+"""
