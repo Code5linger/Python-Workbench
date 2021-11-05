@@ -55,3 +55,19 @@ greetings('Code', 'Slinger')
 greetings('Lorem', 'Ipsum')
 greetings()
 """
+# 3
+"""
+def greet(name):
+    print(f'Hi {name}')
+    return "..."
+
+print(greet('Code'))
+"""
+# 4
+
+
+def increment(number, by=5):
+    return number + by
+
+
+print(increment(5))
