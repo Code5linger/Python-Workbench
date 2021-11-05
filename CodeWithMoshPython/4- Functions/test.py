@@ -100,3 +100,25 @@ def save_user(**user):
 
 save_user(id=1, name='code', age=26)
 """
+# 8
+"""
+message = 'x'
+
+def greet():
+    global message
+    print(message)
+
+print(greet())
+"""
+# 9
+
+
+def multiply(*numbers):
+    total = 1
+    for numbers in numbers:
+        total *= numbers
+    return total
+
+
+print('Start>')
+print(multiply(2, 3, 4, 5, 6))
