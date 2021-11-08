@@ -268,3 +268,20 @@ print('gen:', getsizeof(values))
 values = [x * 2 for x in range(100000)]
 print('list:', getsizeof(values))
 """
+# 22
+"""
+numbers = [1, 2, 3]
+print(*numbers)
+print(1, 2, 3)
+"""
+"""
+first = [1, 2]
+second = [3]
+values = list(range(5))
+values = [*first, 'a', *second, *range(5), *'Hello']
+print(values)
+"""
+first = {'x': 1}
+second = {'x': 10, 'y': 2}
+combined = {**first, **second, 'z':1}
+print(combined)
