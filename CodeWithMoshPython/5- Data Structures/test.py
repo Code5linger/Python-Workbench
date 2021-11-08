@@ -247,3 +247,16 @@ point = {'x': 1, 'y': 2}
 point = dict(x=1, y=2)
 print(point)
 """
+# 20
+"""
+values = []
+for x in range(5):
+    values.append(x * 2)
+print(values)
+"""
+"""
+values = [x * 2 for x in range(5)]
+print(values)
+"""
+# 21
+
