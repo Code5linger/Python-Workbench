@@ -56,9 +56,12 @@ numbers = list(range(20))
 print(numbers[::-1])
 """
 # 3 Re:
-numbers = [1, 2, 3]
-first, second, third = numbers
-first = numbers[0]
-second = numbers[1]
+numbers = [1, 2, 3, 1, 2, 3, 9]
+first, second, *other, last = numbers
 
-print(first, second, third)
+print(first, second)
+print(other)
+print(last)
+
+def multiply(*numbers):
+    multiply(1, 2, 3)
