@@ -174,6 +174,7 @@ print(browsing_session)
 print("redirect", browsing_session)
 """
 # 14
+"""
 from collections import deque
 queue = deque([])
 queue.append(1)
@@ -183,3 +184,20 @@ queue.popleft()
 print(queue)
 if not queue:
     print('empty')
+"""
+# 15
+"""
+point = sorted((1, 2) + (3, 4) * 3)
+print(point)
+"""
+"""
+point = (1, 2, 3)
+print(point[0:2])
+x, y, z = point
+if 10 in point:
+    print('exists')
+
+point[0] = 10
+"""
+# 16
+
