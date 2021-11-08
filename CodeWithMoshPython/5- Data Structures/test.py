@@ -162,7 +162,7 @@ list2 = [10, 20, 30]
 print(list(zip('abc', list1, list2)))
 """
 # 13
-
+"""
 browsing_session = []
 browsing_session.append(1)
 browsing_session.append(2)
@@ -172,4 +172,14 @@ last = browsing_session.pop()
 print(last)
 print(browsing_session)
 print("redirect", browsing_session)
-
+"""
+# 14
+from collections import deque
+queue = deque([])
+queue.append(1)
+queue.append(2)
+queue.append(3)
+queue.popleft()
+print(queue)
+if not queue:
+    print('empty')
