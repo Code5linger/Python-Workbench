@@ -114,6 +114,7 @@ items.sort(key=lambda item: item[1])
 print(items)
 """
 # 9
+"""
 items = [
     ('Product1', 10),
     ('Product2', 9),
@@ -125,3 +126,13 @@ prices = list(map(lambda item: item[1], items))
 print(prices)
 for item in prices:
     print(item)
+"""
+# 10
+items = [
+    ('Product1', 10),
+    ('Product2', 9),
+    ('Product3', 12)
+]
+
+filtered = list(filter(lambda item: item[1] >= 10, items))
+print(filtered)
