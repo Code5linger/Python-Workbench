@@ -103,6 +103,7 @@ numbers = [3, 51, 2, 8, 6]
 print(sorted(numbers, reverse=True))
 print(numbers)
 """
+"""
 items = [
     ('Product1', 10),
     ('Product2', 9),
@@ -111,3 +112,16 @@ items = [
 
 items.sort(key=lambda item: item[1])
 print(items)
+"""
+# 9
+items = [
+    ('Product1', 10),
+    ('Product2', 9),
+    ('Product3', 12)
+]
+
+
+prices = list(map(lambda item: item[1], items))
+print(prices)
+for item in prices:
+    print(item)
