@@ -241,3 +241,9 @@ print(first ^ second)
 if 1 in first:
     print('Yes')
 """
+# 19
+"""
+point = {'x': 1, 'y': 2}
+point = dict(x=1, y=2)
+print(point)
+"""
