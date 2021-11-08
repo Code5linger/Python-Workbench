@@ -89,3 +89,11 @@ del letters[0:3]
 letters.clear()
 print(letters)
 """
+# 6
+"""
+letters = ['a', 'b', 'c']
+print(letters.count('a'))
+if 'a' in letters:
+    print(letters.index('a'))
+"""
+
