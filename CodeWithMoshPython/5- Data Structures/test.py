@@ -96,7 +96,7 @@ print(letters.count('a'))
 if 'a' in letters:
     print(letters.index('a'))
 """
-# 7
+# 7 & 8
 """
 numbers = [3, 51, 2, 8, 6]
 # numbers.sort(reverse=True)
@@ -109,10 +109,5 @@ items = [
     ('Product3', 12)
 ]
 
-
-def sort_item(item):
-    return item[1]
-
-
-items.sort(key=sort_item)
+items.sort(key=lambda item: item[1])
 print(items)
