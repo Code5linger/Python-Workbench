@@ -56,6 +56,7 @@ numbers = list(range(20))
 print(numbers[::-1])
 """
 # 3 Re:
+"""
 numbers = [1, 2, 3, 1, 2, 3, 9]
 first, second, *other, last = numbers
 
@@ -65,3 +66,9 @@ print(last)
 
 def multiply(*numbers):
     multiply(1, 2, 3)
+"""
+# 4
+letters = ['a', 'b', 'c']
+
+for index, letter in enumerate(letters):
+    print(index, letter)
