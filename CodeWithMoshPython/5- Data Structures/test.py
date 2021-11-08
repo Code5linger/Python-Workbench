@@ -200,4 +200,23 @@ if 10 in point:
 point[0] = 10
 """
 # 16
+"""
+x = 10
+y = 11
 
+z = x
+x = y
+y = z
+
+print('x', x)
+print('y', y)
+"""
+"""
+x = 10
+y = 11
+
+x, y = y, x
+
+print('x', x)
+print('y', y)
+"""
