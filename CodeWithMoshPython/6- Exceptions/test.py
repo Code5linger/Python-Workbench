@@ -60,3 +60,16 @@ else:
     print('Boring!')
 """
 # 6
+"""
+
+def calculate_xfactor(age):
+    if age <= 0:
+        raise ValueError('Afawdw')
+    return 10 / age
+
+
+try:
+    calculate_xfactor(-1)
+except ValueError as error:
+    print(error)
+"""
