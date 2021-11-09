@@ -21,6 +21,7 @@ else:
 print('Something')
 """
 # 3
+"""
 try:
     age = int(input('Age: '))
     xfactor = 10 / age
@@ -29,3 +30,20 @@ except (ValueError, ZeroDivisionError):
           'Unless you are Keanu Reeves')
 else:
     print('Boring!')
+"""
+# 4
+""""""
+"""
+try:
+    file = open('test.html')
+    age = int(input('Age: '))
+    xfactor = 10 / age
+except (ValueError, ZeroDivisionError):
+    print('Enter a number between 1 to 100. '
+          'Unless you are Keanu Reeves')
+else:
+    print('Boring!')
+finally:
+    file.close()
+"""
+
