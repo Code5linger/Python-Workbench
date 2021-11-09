@@ -74,6 +74,7 @@ except ValueError as error:
     print(error)
 """
 # 7
+'''
 from timeit import timeit
 
 code1 = """
@@ -101,3 +102,4 @@ if xfactor == None:
 """
 print("First Code = ", timeit(code1, number=10000))
 print("Second Code = ", timeit(code2, number=10000))
+'''
