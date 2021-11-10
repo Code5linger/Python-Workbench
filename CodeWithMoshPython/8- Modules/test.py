@@ -30,4 +30,14 @@ from ecommerce.shopping import sales
 
 sales.calc_tax()
 """
-# 8.5
+# 8.6
+from ecommerce.customer import contact
+from ..customer import contact
+
+contact.contact_customer()
+
+def calc_shipping():
+    pass
+
+def calc_tax():
+    pass
