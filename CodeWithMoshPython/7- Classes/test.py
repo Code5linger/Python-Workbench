@@ -307,13 +307,14 @@ manager = Manager()
 manager.greet()
 """
 # 17
+from abc import ABC, abstractmethod
 
 
 class InvalidOperationError(Exception):
     pass
 
 
-class Strem:
+class Strem(ABC):
     def __init__(self):
         self.opened = False
 
@@ -327,6 +328,10 @@ class Strem:
             raise InvalidOperationError('Strem is Already Closed')
         self.opened = False
 
+    @abstractmethod
+    def read(self):
+        pass
+
 
 class FileSteam(Strem):
     def read(self):
@@ -336,3 +341,12 @@ class FileSteam(Strem):
 class NetworkSteam(Strem):
     def read(self):
         print("Reading Data from a Network")
+
+
+class MemoryStream(Strem):
+    def read(self):
+        print('Reading data from a memory stream')
+
+
+stream = MemoryStream()
+stream.open()
