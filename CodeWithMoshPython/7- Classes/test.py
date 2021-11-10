@@ -307,3 +307,32 @@ manager = Manager()
 manager.greet()
 """
 # 17
+
+
+class InvalidOperationError(Exception):
+    pass
+
+
+class Strem:
+    def __init__(self):
+        self.opened = False
+
+    def open(self):
+        if self.opened:
+            raise InvalidOperationError('Strem is Already Open')
+        self.opened = True
+
+    def close(self):
+        if not self.opened:
+            raise InvalidOperationError('Strem is Already Closed')
+        self.opened = False
+
+
+class FileSteam(Strem):
+    def read(self):
+        print("Reading Data from a File")
+
+
+class NetworkSteam(Strem):
+    def read(self):
+        print("Reading Data from a Network")
