@@ -1,3 +1,5 @@
+print('Sales init')
+
 def calc_tax():
     pass
 
