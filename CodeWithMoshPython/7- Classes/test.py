@@ -271,7 +271,7 @@ print(m.age)
 print(m.weight)
 """
 # 15
-
+"""
 
 class Animal:
     def eat(self):
@@ -286,3 +286,24 @@ class Bird(Animal):
 class Chicken(Bird):
     pass
 
+"""
+# 16
+"""
+
+class Employee:
+    def greet(self):
+        print('Employee Greet')
+
+
+class Person:
+    def greet(self):
+        print('Personal Greet')
+
+
+class Manager(Employee, Person):
+    pass
+
+manager = Manager()
+manager.greet()
+"""
+# 17
