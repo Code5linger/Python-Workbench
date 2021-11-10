@@ -191,7 +191,7 @@ product.price = 2
 print(product.price)
 """
 # 12
-
+"""
 
 class Animal:
     def __init__(self):
@@ -214,3 +214,25 @@ class Fish(Animal):
 m = Mammal()
 m.eat()
 print(m.age)
+"""
+# 13
+
+
+class Animal:
+    def __init__(self):
+        self.age = 1
+
+    def eat(self):
+        print('eat')
+
+
+# Animal: Parent, Base
+# Mammal: Child, Sub
+class Mammal(Animal):
+    def walk(self):
+        print('walk')
+
+
+m = Mammal()
+print(isinstance(m, object))
+print(issubclass(Mammal, object))
