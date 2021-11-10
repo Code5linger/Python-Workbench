@@ -31,6 +31,7 @@ from ecommerce.shopping import sales
 sales.calc_tax()
 """
 # 8.6
+"""
 from ecommerce.customer import contact
 from ..customer import contact
 
@@ -41,3 +42,10 @@ def calc_shipping():
 
 def calc_tax():
     pass
+"""
+# 8.7
+from ecommerce.shopping import sales
+
+# print(dir(sales))
+print(sales.__name__)
+print(sales.__package__)
