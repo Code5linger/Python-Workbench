@@ -307,6 +307,7 @@ manager = Manager()
 manager.greet()
 """
 # 17
+"""
 from abc import ABC, abstractmethod
 
 
@@ -350,3 +351,4 @@ class MemoryStream(Strem):
 
 stream = MemoryStream()
 stream.open()
+"""
