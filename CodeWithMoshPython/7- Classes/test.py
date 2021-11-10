@@ -270,3 +270,19 @@ m = Mammal()
 print(m.age)
 print(m.weight)
 """
+# 15
+
+
+class Animal:
+    def eat(self):
+        print('eat')
+
+
+class Bird(Animal):
+    def fly(self):
+        print('Fly')
+
+
+class Chicken(Bird):
+    pass
+
