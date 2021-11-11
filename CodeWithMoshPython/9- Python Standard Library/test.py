@@ -41,3 +41,10 @@ zip.close()
 with ZipFile(files.zip) as zip:
     print(zip.namelist())
 '''
+# 6
+"""
+import csv
+
+open('data.csv', 'w')
+# Ended stuff here!
+"""
