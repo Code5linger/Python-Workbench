@@ -21,4 +21,14 @@ print("*" * 10)
 print("Hello 😺!")
 print('*' * 10)
 """
+# 6
+'''
+print("Hello")
+2 + 3
+'''
+# 8
 
+'''
+x = 1
+'''
+print('Hello')
