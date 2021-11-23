@@ -15,3 +15,10 @@ print("***" * 6)
 print('Hello World😊')
 print("*" * 10)
 """
+
+# 5
+"""
+print("Hello 😺!")
+print('*' * 10)
+"""
+
